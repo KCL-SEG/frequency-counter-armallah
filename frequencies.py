@@ -2,6 +2,5 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def frequencies(items):
-    frequencies = {}
-    # Your code goes here
-    return frequencies
+    return {i : list(items).count(i) for i in set(items)}
+
